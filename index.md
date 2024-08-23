@@ -1,5 +1,5 @@
 ---
-title: Autonomous Decision and Control Lab
+title: Decision Making and Sensor Tasking for Space Domain Awareness (SDA)
 layout: splash
 
 header:
@@ -7,6 +7,6 @@ header:
     overlay_color: "#000"
     overlay_filter: "0.0"
     caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
-excerpt: We study and develop autonomy with an uncertainty-first approach.
+excerpt: 
 ---
 
