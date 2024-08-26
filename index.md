@@ -10,3 +10,5 @@ header:
 excerpt: 
 ---
 
+
+{% include research.md %}
