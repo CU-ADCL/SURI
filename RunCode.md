@@ -1,3 +1,10 @@
+---
+title: Run The Code 
+layout: splash 
+permalink: /Run the code/
+class: code
+---
+
 # Run The Code
 
 Julia package for ... . This package contains ... .
