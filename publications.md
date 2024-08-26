@@ -7,4 +7,5 @@ class: publications
 
 # Publications
 
-<script src="https://bibbase.org/show?bib=https://www.cu-adcl.org/SURI/bibliography/our-pubs.bib&jsonp=1"></script>
+Becker, Tyler, and Zachary Sunberg. 2024. “Bridging the Gap between Partially Observable Stochastic Games and Sparse POMDP Methods.” arXiv. https://doi.org/10.48550/arXiv.2405.18703.
+
