@@ -5,7 +5,7 @@ permalink: /RunCode/
 class: code
 ---
 
-# Run The Code
+# Run the Code
 
 Julia package for ... . This package contains ... .
 
