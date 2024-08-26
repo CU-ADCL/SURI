@@ -1,5 +1,5 @@
 ---
-title: Decision Making and Sensor Tasking for Space Domain Awareness (SDA)
+title: Hypothesis-Based Sensor Tasking for Space Domain Awareness (SDA)
 layout: splash
 
 header:
