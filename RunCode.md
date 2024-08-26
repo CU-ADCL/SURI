@@ -1,7 +1,7 @@
 ---
 title: Run The Code 
 layout: splash 
-permalink: /Run the code/
+permalink: /RunCode/
 class: code
 ---
 
