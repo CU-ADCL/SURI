@@ -1,6 +1,8 @@
 main:
-- title: Home
+- title: Overview
   url: /
+- title: Run the code
+  url: /publications/
 - title: Publications
   url: /publications/
 - title: Resources
