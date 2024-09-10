@@ -11,5 +11,8 @@ header:
 excerpt: 
 ---
 
+**UNDER CONSTRUCTION**
+
+This site is under construction - an initial release will occur on or before 9/13.
 
 {% include research.md %}
