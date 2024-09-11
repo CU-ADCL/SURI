@@ -4,11 +4,13 @@ layout: splash
 
 
 header:
-    #overlay_image: "assets/images/telecommunications_g1092964846.jpg"
+    overlay_image: "assets/images/telecommunications_g1092964846.jpg"
     overlay_color: "#000"
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
     caption: Satellite Network [techtarget.com]
+    overlay_width: "1200px"  
+    overlay_height: auto"   # Try setting a specific height
 excerpt: 
 ---
 <!-- <style>
@@ -21,7 +23,7 @@ excerpt:
   }
 </style> -->
 
-<img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;">
+<!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
 
 
 **UNDER CONSTRUCTION**
