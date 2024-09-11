@@ -21,7 +21,7 @@ excerpt:
   }
 </style> -->
 
-<img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1200px; height: auto;">
+<img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;">
 
 
 **UNDER CONSTRUCTION**
