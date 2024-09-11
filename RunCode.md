@@ -21,7 +21,7 @@ Download Julia by following the instructions at https://julialang.org/downloads/
 Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
 
 ```
-pkg> add https://github.com/WhiffleFish/SDAPOMDPs.jl.git
+pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git#SDAGames
 ```
 
 ### Updating
