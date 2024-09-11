@@ -56,6 +56,9 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - kramdown
+  - rouge
 
 author:
   name   : "First Lastname"
