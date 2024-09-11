@@ -13,7 +13,7 @@ header:
     overlay_height: "auto"   # Try setting a specific height
 excerpt: 
 ---
-<style>
+<!-- <style>
   .page-header {
     background-size: contain !important; /* Make sure the image is not stretched */
     background-repeat: no-repeat;
@@ -21,9 +21,9 @@ excerpt:
     height: 400px; /* Adjust the height as needed */
     width: 1200px;
   }
-</style>
+</style> -->
 
-<!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
+<img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;">
 
 
 **UNDER CONSTRUCTION**
