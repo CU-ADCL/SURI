@@ -9,6 +9,8 @@ header:
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
     caption: Satellite Network [techtarget.com]
+    overlay_height: "auto"
+    overlay_width: "1200"
 excerpt: 
 ---
 
