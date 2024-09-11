@@ -24,6 +24,21 @@ Installation, updating and testing are performed in [Julia's `pkg>` mode](https:
 pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git#SDAGames
 ```
 
+Install all the neccessary packages
+```
+julia> using Pkg
+```
+```
+julia> Pkg.activate(".")
+```
+```
+julia> Pkg.instantiate()
+```
+
+### 3. Running a simulation
+
+
+
 ### Updating
 
 Always use the latest version. To get the latest version, run
