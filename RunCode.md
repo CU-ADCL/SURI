@@ -7,7 +7,7 @@ class: code
 
 # Run the Code
 
-Julia package for ... . This package contains ... .
+Julia package for SDA planning and hypothesis resolution. This package contains algorithms to create and update a sensor tasking plan in order to both perform the task of catalog maintenance and resolve an operator hypothesis over an object of interest.
 
 The code will be updated over the course of the project, so **it is extemely important to [update the code](#Updating) before you start working with the code** to ensure that you have the latest version.
 
@@ -21,23 +21,24 @@ Download Julia by following the instructions at https://julialang.org/downloads/
 Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
 
 ```
-pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git#SDAGames
+pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git
 ```
 
 Install all the neccessary packages
 ```
 julia> using Pkg
-```
-```
+
 julia> Pkg.activate(".")
-```
-```
+
 julia> Pkg.instantiate()
 ```
 
 ### 3. Running a simulation
 
-
+The demo.jl file in from [SDAPOMDPs.jl](#2-install-sdapomdpsjl). The file supports running a MC simulation with n_sim = N simulations, for a single simulation set n_sim=1.
+A quick analysis of the results, stored in the hist DataFrame, can be performed by the revisedPlan = analyzeHist(bmdp, hist, saveFlag) function.
+Where bmdp is the belief-MDP model, hist is the simulation history, and saveFlag is a flag of true/false to indicate whether to save the results and figures.
+The function return the revised sensor tasking plan, prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
 
 ### Updating
 
