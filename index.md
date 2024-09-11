@@ -3,7 +3,7 @@ title: Hypothesis-Based Sensor Tasking for Space Domain Awareness (SDA)
 layout: splash
 
 header:
-    overlay_image: "assets/images/telecommunications_g1092964846.jpg"
+    overlay_image: "assets/images/FT_J35_Banner_2000x660_J35-Art-07-672x192.jpg"
     #overlay_image: <!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
     overlay_color: "#000"
     overlay_filter: "0.0"
