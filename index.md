@@ -1,6 +1,6 @@
 ---
 title: Hypothesis-Based Sensor Tasking for Space Domain Awareness (SDA)
-layout: home
+layout: homepage
 
 
 header:
