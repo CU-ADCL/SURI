@@ -4,7 +4,8 @@ layout: home
 
 
 header:
-    overlay_image: "assets/images/telecommunications_g1092964846.jpg"
+    # overlay_image: "assets/images/telecommunications_g1092964846.jpg"
+    overlay_image: <!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
     overlay_color: "#000"
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
