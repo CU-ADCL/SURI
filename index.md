@@ -9,11 +9,12 @@ header:
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
     caption: Satellite Network [techtarget.com]
-    overlay_height: "auto"
-    overlay_width: "1200"
+    overlay_height: "400px"   # Try setting a specific height
+    overlay_width: "auto" 
 excerpt: 
 ---
 
+<img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 600px; height: auto;">
 
 
 **UNDER CONSTRUCTION**
