@@ -4,7 +4,7 @@ layout: splash
 
 
 header:
-    overlay_image: "assets/images/FT_J35_Banner_2000x660_J35-Art-07-672x192.webp"
+    overlay_image: "assets/images/telecommunications_g1092964846.jpg"
     overlay_color: "#000"
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
