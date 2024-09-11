@@ -9,10 +9,17 @@ header:
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
     caption: Satellite Network [techtarget.com]
-    overlay_height: "400px"   # Try setting a specific height
-    overlay_width: "800px" 
 excerpt: 
 ---
+<style>
+  .page-header {
+    background-size: contain !important; /* Make sure the image is not stretched */
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 400px; /* Adjust the height as needed */
+    width: 1200px;
+  }
+</style>
 
 <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1200px; height: auto;">
 
