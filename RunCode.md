@@ -23,6 +23,7 @@ Installation, updating and testing are performed in [Julia's `pkg>` mode](https:
 ```
 pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git
 ```
+* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
 
 Install all the neccessary packages
 ```
