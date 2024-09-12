@@ -19,9 +19,13 @@ Download Julia by following the instructions at https://julialang.org/downloads/
 Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
 
 ### 2. Clone [SDAPOMDPs.jl](https://github.com/CU-ADCL/SDAPOMDPs.jl)
+```bash
+git clone https://github.com/CU-ADCL/SDAPOMDPs.jl.git
 
+```
 ### 3. Activate experiment environment
 In the SDAPOMDPs.jl folder run:
+
 ```bash
 julia --project init.jl
 ```
