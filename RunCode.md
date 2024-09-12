@@ -16,24 +16,23 @@ The code will be updated over the course of the project, so **it is extemely imp
 ### 1. Install [Julia](https://julialang.org/)
 
 Download Julia by following the instructions at https://julialang.org/downloads/ .
-
-### 2. Install SDAPOMDPs.jl
 Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
 
-```
-pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git
+### 2. Clone [SDAPOMDPs.jl](https://github.com/CU-ADCL/SDAPOMDPs.jl)
+
+### 3. Activate experiment environment
+In the SDAPOMDPs.jl folder run:
+```bash
+julia --project init.jl
 ```
 
+```julia
+julia> julia
 
-Install all the neccessary packages
+julia> Pkg.activate(experiment)
+
 ```
-julia> using Pkg
 
-julia> Pkg.activate(".")
-
-julia> Pkg.instantiate()
-```
-* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
 * Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
 
 ### 3. Running a simulation
