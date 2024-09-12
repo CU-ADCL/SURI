@@ -23,7 +23,7 @@ Installation, updating and testing are performed in [Julia's `pkg>` mode](https:
 ```
 pkg> add https://github.com/CU-ADCL/SDAPOMDPs.jl.git
 ```
-* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
+
 
 Install all the neccessary packages
 ```
@@ -32,6 +32,9 @@ julia> using Pkg
 julia> Pkg.activate(".")
 
 julia> Pkg.instantiate()
+
+* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
+* Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux).
 ```
 
 ### 3. Running a simulation
