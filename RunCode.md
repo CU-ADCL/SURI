@@ -32,10 +32,9 @@ julia> using Pkg
 julia> Pkg.activate(".")
 
 julia> Pkg.instantiate()
-
-* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
-* Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux).
 ```
+* Make sure this fork of [SatelliteDynamics.jl](https://github.com/WhiffleFish/SatelliteDynamics.jl) is installed and updated.
+* Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
 
 ### 3. Running a simulation
 
