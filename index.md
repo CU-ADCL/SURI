@@ -3,12 +3,12 @@ title: Hypothesis-Based Sensor Tasking for Space Domain Awareness (SDA)
 layout: splash
 
 header:
-    overlay_image: "assets/images/w=1920,quality=90,fit=scale-down.avif"
+    overlay_image: "assets/images/SDA-TAP-Release-scaled-qsv0gcya82arcbvq07gl44p6rj34l771y18z7317wg.png"
     #overlay_image: <!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
     overlay_color: "#000"
     overlay_filter: "0.0"
     #caption: POMCP Tree from POMDPs.jl [PC Tomer Arnon]
-    caption: Satellite Network [techtarget.com]
+    # caption: Satellite Network [techtarget.com]
     overlay_width: 1200px 
     overlay_height: auto  # Try setting a specific height
 excerpt: 
