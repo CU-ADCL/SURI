@@ -28,6 +28,7 @@ $$
 \end{aligned}
 $$
 
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 Here $X_{ijt}$ is a binary 3-dimensional control variable representing whether or not observer $j$ observers object $i$ at time step $t$, and $O_{ijt}$ represents whether or not observer $j$ *is able to* observe object $i$ at time $t$.
 
 For ground based-sensors, the ILP plan can be visualized as follows:
