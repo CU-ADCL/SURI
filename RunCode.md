@@ -38,10 +38,10 @@ pkg> activate experiments
 .
 
 
-* Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
+* Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux). In order to use SatelliteDynamics.jl on Windows systems, the Windows Subsystem for Linux ([WSL](https://learn.microsoft.com/en-us/windows/wsl/install)) with a [GCC](https://gcc.gnu.org/) installation is required.
 
 ### 4. Running a simulation
-```julia
+```bash
 julia --project=experiments experiments/demo.jl
 ```
 
@@ -55,14 +55,6 @@ For some intuition into how the integer linear program (ILP) solution performs, 
 julia --project=experiments experiments/ilp-plan.jl
 ```
 from the base SDAPOMDPs.jl directory to generate an animation illustrating the sensor tasking strategy of 3 ground-based sensors for a 12-hour period.
-
-### Updating
-
-Always use the latest version. To get the latest version, run
-```
-pkg> update
-```
-
 
 ## Additional Information/FAQs
 
