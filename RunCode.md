@@ -21,8 +21,8 @@ Installation, updating and testing are performed in [Julia's `pkg>` mode](https:
 ### 2. Clone [SDAPOMDPs.jl](https://github.com/CU-ADCL/SDAPOMDPs.jl)
 ```bash
 git clone https://github.com/CU-ADCL/SDAPOMDPs.jl.git
-
 ```
+
 ### 3. Activate experiment environment
 In the SDAPOMDPs.jl directory execute the following command in the command-line to initialize the project:
 ```bash
@@ -40,7 +40,7 @@ pkg> activate experiments
 
 * Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
 
-### 3. Running a simulation
+### 4. Running a simulation
 
 The demo.jl file in from [SDAPOMDPs.jl](#2-install-sdapomdpsjl). The file supports running a MC simulation with n_sim = N simulations, for a single simulation set n_sim=1.
 A quick analysis of the results, stored in the hist DataFrame, can be performed by the `revisedPlan = analyzeHist(bmdp, hist, saveFlag)` function.
