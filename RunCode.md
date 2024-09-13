@@ -15,8 +15,7 @@ The code will be updated over the course of the project, so **it is extemely imp
 
 ### 1. Install [Julia](https://julialang.org/)
 
-Download Julia by following the instructions at https://julialang.org/downloads/ .
-Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
+Download Julia by following the instructions at https://julialang.org/downloads/ . Installation, updating and testing are performed in [Julia's `pkg>` mode](https://docs.julialang.org/en/v1/stdlib/Pkg/). To enter `pkg>` mode, press `]` in julia. To return to normal julia execution mode from `pkg>` mode, press backspace.
 
 ### 2. Clone [SDAPOMDPs.jl](https://github.com/CU-ADCL/SDAPOMDPs.jl)
 ```bash
@@ -45,10 +44,7 @@ pkg> activate experiments
 julia --project=experiments experiments/demo.jl
 ```
 
-The demo.jl file in [SDAPOMDPs.jl](#2-install-sdapomdpsjl) can be used to run MC simulations with n_sim = N simulations (for a single simulation set n_sim=1).  
-A quick analysis of the results, stored in the hist DataFrame, can be performed by the `revisedPlan = analyzeHist(bmdp, hist, modelList, dir2save)` function.  
-Where `bmdp` is the belief-MDP model, `hist` is the simulation history, `modelList` is a vector of strings describing the different hypothesis models, and `dir2save` is an optional string describing the library to save results and plots.  
-The function returns the nominal/initial and the final/revised sensor tasking schedule, and prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
+The demo.jl file in [SDAPOMDPs.jl](#2-install-sdapomdpsjl) can be used to run MC simulations with n_sim = N simulations (for a single simulation set n_sim=1).  A quick analysis of the results, stored in the hist DataFrame, can be performed by the `revisedPlan = analyzeHist(bmdp, hist, modelList, dir2save)` function.  Where `bmdp` is the belief-MDP model, `hist` is the simulation history, `modelList` is a vector of strings describing the different hypothesis models, and `dir2save` is an optional string describing the library to save results and plots. The function returns the nominal/initial and the final/revised sensor tasking schedule, and prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
 
 
 ### 5. Optional ILP Simulation
