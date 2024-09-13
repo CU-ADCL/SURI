@@ -1,4 +1,3 @@
-<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 This research aims to expand the algorithmic capability for tasking sensors to investigate human-specified hypotheses about space objects (SOs).
 The goal is to improve the ability to evaluate internal- and physical- state hypotheses in cases where there are many objects and a collection of sensors with diverse capabilities.
@@ -18,6 +17,7 @@ The approach can be broken down into two main steps:
 The base integer linear programming approach aims to judiciously allocate sensors to space objects in a manner where the severity of the worst-case scenario is minimized. 
 
 Formally, the ILP is given by
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 $$
 \begin{aligned}
 \text{maximize} \quad & t \\
