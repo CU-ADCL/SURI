@@ -32,7 +32,7 @@ $$
 Here $$X_{ijt}$$ is a binary 3-dimensional control variable representing whether or not observer $$j$$ observers object $$i$$ at time step $$t$$, and $$O_{ijt}$$ represents whether or not observer $$j$$ *is able to* observe object $$i$$ at time $$t$$.
 
 For ground based-sensors, the ILP plan can be visualized as follows:
-![ILP-Plan](/assets/images/ilp-plan-600.gif)
+![ILP-Plan](assets/images/ilp-plan-600.gif)
 .
 
 ### 2) Monte Carlo Tree Search
