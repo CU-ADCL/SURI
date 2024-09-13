@@ -33,7 +33,7 @@ julia --project init.jl
 ```julia
 julia> julia
 
-julia> Pkg.activate(experiment)
+julia> Pkg.activate("experiment")
 
 ```
 
