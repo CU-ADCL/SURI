@@ -41,10 +41,13 @@ pkg> activate experiments
 * Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
 
 ### 4. Running a simulation
+```julia
+julia --project=experiments experiments/demo.jl
+```
 
-The demo.jl file in from [SDAPOMDPs.jl](#2-install-sdapomdpsjl). The file supports running a MC simulation with n_sim = N simulations, for a single simulation set n_sim=1.
-A quick analysis of the results, stored in the hist DataFrame, can be performed by the `revisedPlan = analyzeHist(bmdp, hist, saveFlag)` function.
-Where `bmdp` is the belief-MDP model, hist is the simulation history, and saveFlag is a flag of true/false to indicate whether to save the results and figures.
+The demo.jl file in [SDAPOMDPs.jl](#2-install-sdapomdpsjl) can be used to run MC simulations with n_sim = N simulations (for a single simulation set n_sim=1).  
+A quick analysis of the results, stored in the hist DataFrame, can be performed by the `revisedPlan = analyzeHist(bmdp, hist, modelList, dir2save)` function.  
+Where `bmdp` is the belief-MDP model, `hist` is the simulation history, `modelList` is a vector of strings describing the different hypothesis models, and `dir2save` is an optional string describing the library to save results and plots.  
 The function returns the revised sensor tasking plan, prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
 
 For some intuition into how the integer linear program (ILP) solution performs, one may execute
