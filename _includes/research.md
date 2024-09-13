@@ -38,4 +38,4 @@ For ground based-sensors, the ILP plan can be visualized as follows:
 .
 
 ### 2. Monte Carlo Tree Search
-Building on the ILP solution as a baseline, we assume the existence of an object of interest (OOI) in the catalogue, for which we seek to resolve a specific hypothesis. To achieve this, we use Monte Carlo Tree Search (MCTS) applied to a belief Markov Decision Process (MDP). The goal of the MCTS solver is to minimize the entropy of the distribution over possible hypotheses while minimally disrupting the baseline catalogue maintenance plan.
+Building on the ILP solution as a baseline, we assume the existence of an object of interest (OOI) in the catalogue, for which we seek to resolve a specific hypothesis. This work focuses on determining the true dynamic model the OOI is transitioning according to, for example due to drag configuration. To achieve this, we use Monte Carlo Tree Search (MCTS) applied to a belief Markov Decision Process (MDP). The goal of the MCTS solver is to minimize the entropy of the distribution over possible hypotheses while minimally disrupting the baseline catalogue maintenance plan.
