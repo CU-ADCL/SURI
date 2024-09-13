@@ -18,6 +18,7 @@ The base integer linear programming approach aims to judiciously allocate sensor
 
 Formally, the ILP is given by
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 $$
 \begin{aligned}
 \text{maximize} \quad & t \\
