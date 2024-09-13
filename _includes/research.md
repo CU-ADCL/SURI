@@ -1,3 +1,12 @@
+<script type="text/x-mathjax-config">
+  MathJax = {
+    tex: {
+      inlineMath: [['$', '$'], ["\\(", "\\)"]],
+      processEscapes: true,
+    }
+  }
+</script>
+
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 
 This research aims to expand the algorithmic capability for tasking sensors to investigate human-specified hypotheses about space objects (SOs).
@@ -18,6 +27,7 @@ The approach can be broken down into two main steps:
 The base integer linear programming approach aims to judiciously allocate sensors to space objects in a manner where the severity of the worst-case scenario is minimized. 
 
 Formally, the ILP is given by
+
 $$
 \begin{aligned}
 \text{maximize} \quad & t \\
@@ -28,7 +38,7 @@ $$
 \end{aligned}
 $$
 
-Here $X_{ijt}$ is a binary 3-dimensional control variable representing whether or not observer $j$ observers object $i$ at time step $t$, and $O_{ijt}$ represents whether or not observer $j$ *is able to* observe object $i$ at time $t$.
+Here \$X_{ijt}\$ is a binary 3-dimensional control variable representing whether or not observer \$j\$ observers object \$i\$ at time step \$t\$, and \$O_{ijt}\$ represents whether or not observer \$j\$ *is able to* observe object \$i\$ at time \$t\$.
 
 For ground based-sensors, the ILP plan can be visualized as follows:
 ![ILP-Plan](../assets/images/ilp-plan-600.gif)
