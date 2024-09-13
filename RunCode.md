@@ -30,11 +30,12 @@ In the SDAPOMDPs.jl folder run:
 julia --project init.jl
 ```
 
+```bash
+julia
+```
+
 ```julia
-julia> julia
-
 julia> Pkg.activate("experiment")
-
 ```
 
 * Currently due to SatelliteDynamics.jl dependency on [SOFA.jl](https://github.com/sisl/SOFA.jl), it only supports Unix systems (MacOS and Linux)
@@ -44,7 +45,7 @@ julia> Pkg.activate("experiment")
 The demo.jl file in from [SDAPOMDPs.jl](#2-install-sdapomdpsjl). The file supports running a MC simulation with n_sim = N simulations, for a single simulation set n_sim=1.
 A quick analysis of the results, stored in the hist DataFrame, can be performed by the revisedPlan = analyzeHist(bmdp, hist, saveFlag) function.
 Where bmdp is the belief-MDP model, hist is the simulation history, and saveFlag is a flag of true/false to indicate whether to save the results and figures.
-The function return the revised sensor tasking plan, prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
+The function returns the revised sensor tasking plan, prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
 
 ### Updating
 
