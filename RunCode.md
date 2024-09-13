@@ -72,8 +72,4 @@ You can find performance tips [here](https://docs.julialang.org/en/v1/manual/per
 
 ### Can I use Python code with Julia?
 
-Python and Julia are capable of interoperating and it may be possible to complete many of the homework assignments using python, however the course staff cannot guarantee support, and python may be too slow in some instances. Python and julia interop is supported by [PythonCall](https://github.com/JuliaPy/PythonCall.jl)
-
-
-
-
+Python and Julia are capable of interoperating, however python may be too slow in some instances. Python and julia interop is supported by [PythonCall](https://github.com/JuliaPy/PythonCall.jl)
