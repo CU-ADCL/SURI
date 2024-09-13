@@ -21,8 +21,8 @@ Installation, updating and testing are performed in [Julia's `pkg>` mode](https:
 ### 2. Clone [SDAPOMDPs.jl](https://github.com/CU-ADCL/SDAPOMDPs.jl)
 ```bash
 git clone https://github.com/CU-ADCL/SDAPOMDPs.jl.git
-
 ```
+
 ### 3. Activate experiment environment
 In the SDAPOMDPs.jl directory execute the following command in the command-line to initialize the project:
 ```bash
