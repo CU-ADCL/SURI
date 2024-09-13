@@ -50,10 +50,14 @@ A quick analysis of the results, stored in the hist DataFrame, can be performed 
 Where `bmdp` is the belief-MDP model, `hist` is the simulation history, `modelList` is a vector of strings describing the different hypothesis models, and `dir2save` is an optional string describing the library to save results and plots.  
 The function returns the revised sensor tasking plan, prints the means of the cumulative reward, number of changes to the plan, steps to resolve the hypothesis, and observations to the object of interest taken before making a decision.
 
+
+### 5. Optional ILP Simulation
 For some intuition into how the integer linear program (ILP) solution performs, one may execute
+
 ```bash
 julia --project=experiments experiments/ilp-plan.jl
 ```
+
 from the base SDAPOMDPs.jl directory to generate an animation illustrating the sensor tasking strategy of 3 ground-based sensors for a 12-hour period.
 
 ## Additional Information/FAQs
