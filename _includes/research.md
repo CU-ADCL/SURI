@@ -15,7 +15,7 @@ The approach can be broken down into two main steps:
 
 
 ### 1. Integer Linear Program
-The base integer linear programming approach aims to judiciously allocate sensors to space objects in a manner where the severity of the worst-case scenario is minimized. 
+The base integer linear programming approach aims to allocate sensors to space objects over a fixed period, maximizing the minimum observation count across all satellites. This ensures a fair distribution of observations, minimizing the disparity in how often each satellite is observed. By doing so, the approach satisfies the catalog maintenance objective for SDA.
 
 Formally, the ILP is given by
 <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
