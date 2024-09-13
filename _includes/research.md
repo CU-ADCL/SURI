@@ -1,7 +1,7 @@
 
 This website describes and contains a reference implementation of an algorithm for tasking sensors to investigate human-specified hypotheses about space objects (SOs). The goal is to improve the ability to evaluate internal- and physical- state hypotheses in cases where there are many objects and a collection of sensors with diverse capabilities.
 
-To download and run the algorithm, see the [Run the code]({% link RunCode.md %}) page; for a brief description of the approach, see below.
+To download and run the algorithm, see the [Run the code](/RunCode/) page; for a brief description of the approach, see below.
 
 <!-- **Problem Description** -->
 <!-- Describe the problem of catalog maintenance and hypothesis resolution -->
