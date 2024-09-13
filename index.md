@@ -25,9 +25,9 @@ excerpt:
 <!-- <img src="assets/images/telecommunications_g1092964846.jpg" alt="Image" style="max-width: 1600px; height: auto;"> -->
 
 
-**UNDER CONSTRUCTION**
+<!-- **UNDER CONSTRUCTION** -->
 
-This site is under construction - an initial release will occur on or before 9/13.
+<!-- This site is under construction - an initial release will occur on or before 9/13. -->
 
 {% include research.md %}
 
