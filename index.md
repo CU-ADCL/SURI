@@ -11,6 +11,8 @@ header:
     caption: busineswire.com
 excerpt: 
 ---
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
 <!-- <style>
   .page-header {
     background-size: contain !important; /* Make sure the image is not stretched */
